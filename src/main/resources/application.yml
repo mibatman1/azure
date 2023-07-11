@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://exitdb.database.windows.net:1433;database=productutility_db;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: root1
+    password: Ooot12345
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.MySQL8Dialect
